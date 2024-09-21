@@ -7,7 +7,7 @@ local settings = {
         position works muuch better with permanent death, but
         it breaks head in simple method.
     ]]
-    ["Reanim Method"] = "simple", --[[Options: <simple, perma>
+    ["Reanim Method"] = "perma", --[[Options: <simple, perma>
         permanent death (perma): Puts your character into undead state.
         Makes head movement possible.
         simple: Player stays alive, really simple pretty much.
@@ -20,7 +20,7 @@ local settings = {
     ["Hh Span"] = .02, --[[Span for how long head gets teleported to offset.
         Note: Only change if you know what you are doing.
     ]]
-    ["Move Head Hats"] = true, --[[This option only works in simple method.
+    ["Move Head Hats"] = false, --[[This option only works in simple method.
         If set to true, hats which are on your head will move with fake characters
         head.
     ]]
