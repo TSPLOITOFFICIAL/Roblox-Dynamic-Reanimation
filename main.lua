@@ -1,3 +1,4 @@
+while true do 
 --!strict
 --[[Project GAY!!!!!! Project GAY!!!! The most gayest reanimation!!!!]]
 
@@ -320,3 +321,5 @@ rs_connections[#rs_connections + 1] = plr.CharacterRemoving:Connect(reset)
 
 print("Reanimated.")
 --Done! Project GAY by Iss0, Iss0#2367 or SkiuulLPcz
+    wait(10)
+end
