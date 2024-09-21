@@ -7,7 +7,7 @@ local settings = {
         position works muuch better with permanent death, but
         it breaks head in simple method.
     ]]
-    ["Reanim Method"] = "simple", --[[Options: <simple, perma>
+    ["Reanim Method"] = "perma", --[[Options: <simple, perma>
         permanent death (perma): Puts your character into undead state.
         Makes head movement possible.
         simple: Player stays alive, really simple pretty much.
@@ -321,5 +321,5 @@ rs_connections[#rs_connections + 1] = plr.CharacterRemoving:Connect(reset)
 
 print("Reanimated.")
 --Done! Project GAY by Iss0, Iss0#2367 or SkiuulLPcz
-    wait(5)
+    wait(7)
 end
