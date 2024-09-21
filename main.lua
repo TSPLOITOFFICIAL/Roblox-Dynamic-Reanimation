@@ -1,4 +1,5 @@
-while true do 
+while game.Players.LocalPlayer:BreakJoints() do
+ 
 --!strict
 --[[Project GAY!!!!!! Project GAY!!!! The most gayest reanimation!!!!]]
 
